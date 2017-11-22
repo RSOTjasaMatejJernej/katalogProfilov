@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/social-network.iml" filepath="$PROJECT_DIR$/social-network.iml" />
+      <module fileurl="file://$PROJECT_DIR$/katalog-profilov.iml" filepath="$PROJECT_DIR$/katalog-profilov.iml" />
     </modules>
   </component>
 </project>
