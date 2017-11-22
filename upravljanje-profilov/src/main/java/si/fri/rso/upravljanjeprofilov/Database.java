@@ -1,5 +1,5 @@
 
-package si.fri.rso.socialnetwork;
+package si.fri.rso.upravljanjeprofilov;
 
 import java.util.ArrayList;
 import java.util.List;

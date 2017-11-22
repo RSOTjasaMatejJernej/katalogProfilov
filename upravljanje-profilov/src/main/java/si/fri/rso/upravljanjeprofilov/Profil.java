@@ -18,7 +18,7 @@
  *  software. See the License for the specific language governing permissions and
  *  limitations under the License.
 */
-package si.fri.rso.socialnetwork;
+package si.fri.rso.upravljanjeprofilov;
 
 public class Profil {
 

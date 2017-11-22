@@ -1,5 +1,5 @@
 
-package si.fri.rso.socialnetwork;
+package si.fri.rso.upravljanjeprofilov;
 
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;

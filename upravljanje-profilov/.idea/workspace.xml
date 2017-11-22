@@ -13,7 +13,7 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="SocialNetworkApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/si/fri/rso/socialnetwork/SocialNetworkApplication.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/si/fri/rso/upravljanjeprofilov/SocialNetworkApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
               <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
@@ -23,10 +23,10 @@
         </entry>
       </file>
       <file leaf-file-name="UpravljanjeProfilovResources.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/si/fri/rso/socialnetwork/UpravljanjeProfilovResources.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/si/fri/rso/upravljanjeprofilov/UpravljanjeProfilovResources.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="39" column="60" lean-forward="false" selection-start-line="39" selection-start-column="60" selection-end-line="39" selection-end-column="60" />
+            <state relative-caret-position="204">
+              <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -45,7 +45,7 @@
         </entry>
       </file>
       <file leaf-file-name="Profil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/si/fri/rso/socialnetwork/Profil.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/si/fri/rso/upravljanjeprofilov/Profil.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
               <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
@@ -55,7 +55,7 @@
         </entry>
       </file>
       <file leaf-file-name="Database.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/si/fri/rso/socialnetwork/Database.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/si/fri/rso/upravljanjeprofilov/Database.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="510">
               <caret line="33" column="35" lean-forward="false" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
@@ -93,6 +93,7 @@
         <option value="$PROJECT_DIR$/src/main/java/si/fri/rso/socialnetwork/KatalogProfilovResource.java" />
         <option value="$PROJECT_DIR$/Dockerfile" />
         <option value="$PROJECT_DIR$/src/main/java/si/fri/rso/socialnetwork/UpravljanjeProfilovResources.java" />
+        <option value="$PROJECT_DIR$/src/main/java/si/fri/rso/upravljanjeprofilov/UpravljanjeProfilovResources.java" />
       </list>
     </option>
   </component>
@@ -179,7 +180,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="socialnetwork" type="462c0819:PsiDirectoryNode" />
+              <item name="upravljanjeprofilov" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -332,15 +333,16 @@
       <workItem from="1511343464173" duration="11000" />
       <workItem from="1511360701843" duration="49000" />
       <workItem from="1511360853394" duration="24000" />
-      <workItem from="1511361058869" duration="1650000" />
+      <workItem from="1511361058869" duration="2526000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13877000" />
+    <option name="totallyTimeSpent" value="14753000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -385,7 +387,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/si/fri/rso/socialnetwork/SocialNetworkApplication.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/si/fri/rso/upravljanjeprofilov/SocialNetworkApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
@@ -393,7 +395,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/si/fri/rso/socialnetwork/UpravljanjeProfilovResources.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/si/fri/rso/upravljanjeprofilov/UpravljanjeProfilovResources.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
           <caret line="41" column="45" lean-forward="false" selection-start-line="41" selection-start-column="45" selection-end-line="41" selection-end-column="45" />
@@ -403,7 +405,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/si/fri/rso/socialnetwork/Profil.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/si/fri/rso/upravljanjeprofilov/Profil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
@@ -411,7 +413,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/si/fri/rso/socialnetwork/Database.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/si/fri/rso/upravljanjeprofilov/Database.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="33" column="35" lean-forward="false" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
@@ -429,7 +431,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/si/fri/rso/socialnetwork/UpravljanjeProfilovResources.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/si/fri/rso/upravljanjeprofilov/UpravljanjeProfilovResources.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
           <caret line="41" column="45" lean-forward="false" selection-start-line="41" selection-start-column="45" selection-end-line="41" selection-end-column="45" />
@@ -439,7 +441,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/si/fri/rso/socialnetwork/Profil.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/si/fri/rso/upravljanjeprofilov/Profil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
@@ -447,7 +449,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/si/fri/rso/socialnetwork/Database.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/si/fri/rso/upravljanjeprofilov/Database.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="33" column="35" lean-forward="false" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
@@ -457,7 +459,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/si/fri/rso/socialnetwork/SocialNetworkApplication.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/si/fri/rso/upravljanjeprofilov/SocialNetworkApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
@@ -473,7 +475,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/si/fri/rso/socialnetwork/UpravljanjeProfilovResources.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/si/fri/rso/upravljanjeprofilov/UpravljanjeProfilovResources.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
           <caret line="41" column="45" lean-forward="false" selection-start-line="41" selection-start-column="45" selection-end-line="41" selection-end-column="45" />
@@ -483,7 +485,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/si/fri/rso/socialnetwork/Profil.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/si/fri/rso/upravljanjeprofilov/Profil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
@@ -491,7 +493,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/si/fri/rso/socialnetwork/Database.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/si/fri/rso/upravljanjeprofilov/Database.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="33" column="35" lean-forward="false" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
@@ -501,7 +503,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/si/fri/rso/socialnetwork/SocialNetworkApplication.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/si/fri/rso/upravljanjeprofilov/SocialNetworkApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
@@ -517,7 +519,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/si/fri/rso/socialnetwork/SocialNetworkApplication.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/si/fri/rso/upravljanjeprofilov/SocialNetworkApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="30" column="13" lean-forward="false" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
@@ -525,7 +527,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/si/fri/rso/socialnetwork/Profil.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/si/fri/rso/upravljanjeprofilov/Profil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="22" column="3" lean-forward="true" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
@@ -533,7 +535,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/si/fri/rso/socialnetwork/UpravljanjeProfilovResources.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/si/fri/rso/upravljanjeprofilov/UpravljanjeProfilovResources.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
           <caret line="36" column="4" lean-forward="false" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
@@ -543,7 +545,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/si/fri/rso/socialnetwork/Database.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/si/fri/rso/upravljanjeprofilov/Database.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="37" column="27" lean-forward="true" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="27" />
@@ -571,7 +573,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/si/fri/rso/socialnetwork/SocialNetworkApplication.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/si/fri/rso/upravljanjeprofilov/SocialNetworkApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="30" column="13" lean-forward="false" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
@@ -579,7 +581,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/si/fri/rso/socialnetwork/UpravljanjeProfilovResources.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/si/fri/rso/upravljanjeprofilov/UpravljanjeProfilovResources.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
           <caret line="37" column="27" lean-forward="false" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="27" />
@@ -596,7 +598,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/si/fri/rso/socialnetwork/Profil.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/si/fri/rso/upravljanjeprofilov/Profil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
@@ -604,7 +606,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/si/fri/rso/socialnetwork/Database.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/si/fri/rso/upravljanjeprofilov/Database.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
           <caret line="59" column="22" lean-forward="true" selection-start-line="59" selection-start-column="22" selection-end-line="59" selection-end-column="22" />
@@ -632,7 +634,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/si/fri/rso/socialnetwork/SocialNetworkApplication.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/si/fri/rso/upravljanjeprofilov/SocialNetworkApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="30" column="13" lean-forward="false" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
@@ -640,7 +642,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/si/fri/rso/socialnetwork/UpravljanjeProfilovResources.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/si/fri/rso/upravljanjeprofilov/UpravljanjeProfilovResources.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
           <caret line="37" column="27" lean-forward="false" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="27" />
@@ -650,7 +652,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/si/fri/rso/socialnetwork/Profil.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/si/fri/rso/upravljanjeprofilov/Profil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
@@ -658,7 +660,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/si/fri/rso/socialnetwork/Database.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/si/fri/rso/upravljanjeprofilov/Database.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="29" column="13" lean-forward="false" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
@@ -693,7 +695,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/si/fri/rso/socialnetwork/SocialNetworkApplication.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/si/fri/rso/upravljanjeprofilov/SocialNetworkApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="30" column="13" lean-forward="false" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
@@ -701,7 +703,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/si/fri/rso/socialnetwork/UpravljanjeProfilovResources.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/si/fri/rso/upravljanjeprofilov/UpravljanjeProfilovResources.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
           <caret line="37" column="27" lean-forward="false" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="27" />
@@ -711,7 +713,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/si/fri/rso/socialnetwork/Profil.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/si/fri/rso/upravljanjeprofilov/Profil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
@@ -719,7 +721,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/si/fri/rso/socialnetwork/Database.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/si/fri/rso/upravljanjeprofilov/Database.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="29" column="13" lean-forward="false" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
@@ -789,15 +791,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="49" lean-forward="true" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/si/fri/rso/socialnetwork/Database.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/si/fri/rso/upravljanjeprofilov/Database.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="33" column="35" lean-forward="false" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
@@ -807,7 +801,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/si/fri/rso/socialnetwork/Profil.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/si/fri/rso/upravljanjeprofilov/Profil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
@@ -815,7 +809,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/si/fri/rso/socialnetwork/SocialNetworkApplication.java">
+    <entry file="file://$PROJECT_DIR$/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="49" lean-forward="true" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/si/fri/rso/upravljanjeprofilov/SocialNetworkApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
@@ -823,10 +825,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/si/fri/rso/socialnetwork/UpravljanjeProfilovResources.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/si/fri/rso/upravljanjeprofilov/UpravljanjeProfilovResources.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="39" column="60" lean-forward="false" selection-start-line="39" selection-start-column="60" selection-end-line="39" selection-end-column="60" />
+        <state relative-caret-position="204">
+          <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
