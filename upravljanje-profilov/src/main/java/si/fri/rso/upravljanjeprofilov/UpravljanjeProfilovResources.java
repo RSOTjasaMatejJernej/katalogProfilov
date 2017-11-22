@@ -20,12 +20,13 @@ import static javax.ws.rs.core.HttpHeaders.USER_AGENT;
 public class UpravljanjeProfilovResources {
 
     @GET
-    public Response getAllCustomers() {
+    @Path("{profilId}")
+    public Response getCustomer(@PathParam("profilId") String profilId) {
         //addCustomers();
         // List<Customer> customers = Database.getCustomers();
 
         try {
-            String response = sendGet();
+            String response = sendGet(profilId);
 
             return Response.ok(response).build();
         } catch (Exception e) {
@@ -35,9 +36,9 @@ public class UpravljanjeProfilovResources {
 
     }
 
-    private String sendGet() throws Exception {
+    private String sendGet(String profilId) throws Exception {
 
-        String url = "http://0.0.0.0:8080/v1/katalogProfilov";
+        String url = "http://192.168.99.100:8080/v1/katalogProfilov/"+profilId;
 
         URL obj = new URL(url);
         HttpURLConnection con = (HttpURLConnection) obj.openConnection();
