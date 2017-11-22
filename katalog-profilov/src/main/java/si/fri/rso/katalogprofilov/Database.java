@@ -9,11 +9,11 @@ public class Database {
     private static List<Profil> profils = new ArrayList<>();
 
     public static List<Profil> getProfils() {
-        /*Profil cus = new Profil();
+        Profil cus = new Profil();
         cus.setId("1");
         cus.setFirstName("Janez");
         cus.setLastName("Novak");
-        profils.add(cus);*/
+        profils.add(cus);
 
         return profils;
     }

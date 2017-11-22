@@ -69,7 +69,7 @@ public class UpravljanjeProfilovResources {
 
     }
 
-    @GET
+    /*@GET
     public Response getAllProfils() {
         List<Profil> profils = Database.getProfils();
         return Response.ok(profils).build();
@@ -82,7 +82,7 @@ public class UpravljanjeProfilovResources {
         return profil != null
                 ? Response.ok(profil).build()
                 : Response.status(Response.Status.NOT_FOUND).build();
-    }
+    }*/
 
     @POST
     public Response addNewProfil(Profil profil) {
