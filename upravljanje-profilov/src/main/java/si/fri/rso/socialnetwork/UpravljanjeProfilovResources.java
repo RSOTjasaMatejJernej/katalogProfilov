@@ -37,7 +37,7 @@ public class UpravljanjeProfilovResources {
 
     private String sendGet() throws Exception {
 
-        String url = "http://localhost:8080/v1/customers";
+        String url = "http://0.0.0.0:8080/v1/katalogProfilov";
 
         URL obj = new URL(url);
         HttpURLConnection con = (HttpURLConnection) obj.openConnection();
