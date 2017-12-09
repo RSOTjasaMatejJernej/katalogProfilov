@@ -1,6 +1,7 @@
 
 package si.fri.rso.katalogprofilov;
 
+import javax.enterprise.context.ApplicationScoped;
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
@@ -12,6 +13,7 @@ import java.util.List;
 @Consumes(MediaType.APPLICATION_JSON)
 @Produces(MediaType.APPLICATION_JSON)
 @Path("katalogProfilov")
+@ApplicationScoped
 public class KatalogProfilovResource {
 
     @GET

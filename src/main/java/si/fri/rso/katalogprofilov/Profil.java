@@ -20,6 +20,8 @@
 */
 package si.fri.rso.katalogprofilov;
 
+import java.io.Serializable;
+
 public class Profil {
 
     private String id;
@@ -48,5 +50,14 @@ public class Profil {
 
     public void setLastName(String lastName) {
         this.lastName = lastName;
+    }
+
+    @Override
+    public String toString() {
+        return "Profil{" +
+                "id='" + id + '\'' +
+                ", firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                '}';
     }
 }
