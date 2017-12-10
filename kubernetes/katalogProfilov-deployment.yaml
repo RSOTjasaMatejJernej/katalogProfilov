@@ -1,0 +1,25 @@
+apiVersion: apps/v1beta1
+kind: Deployment
+metadata:
+  name: katalog-deployment
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: katalog-profilov
+    spec:
+      containers:
+      - image: tjasaj/katalog-profilov:0.01
+        name: katalog-profilov
+        env:
+          - name: KUMULUZEE_DISCOVERY_CLUSTER
+            value: bluemix
+          - name: KUMULUZEE_DISCOVERY_ETCD_HOSTS
+            value: http://etcd:2379
+          - name: KUMULUZEE_CONFIG_ETCD_HOSTS
+            value: http://etcd:2379
+        ports:
+        - containerPort: 8081
+          name: server
+          protocol: TCP
