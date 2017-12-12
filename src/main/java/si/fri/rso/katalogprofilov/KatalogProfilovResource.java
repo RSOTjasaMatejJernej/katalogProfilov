@@ -89,7 +89,7 @@ public class KatalogProfilovResource {
     }
 
     @GET
-    @Path("endpoint/info")
+    @Path("/info")
     public Response info() {
 
         JSONObject json = new JSONObject();
@@ -111,17 +111,17 @@ public class KatalogProfilovResource {
         github.put("https://github.com/RSOTjasaMatejJernej/obvestilniSistem");
         github.put("https://github.com//RSOTjasaMatejJernej/sporocilniSistem");
 
-        JSONArray travis = new JSONArray();
-        travis.put("https://github.com/RSOTjasaMatejJernej/katalogProfilov");
-        travis.put("https://github.com/RSOTjasaMatejJernej/upravljanjeProfilov");
-        travis.put("https://github.com/RSOTjasaMatejJernej/obvestilniSistem/");
-        travis.put("https://github.com/RSOTjasaMatejJernej/sporocilniSistem/");
-
         JSONArray dockerhub = new JSONArray();
-        dockerhub.put("https://travis-ci.org/RSOTjasaMatejJernej/katalogProfilov");
-        dockerhub.put("https://travis-ci.org/RSOTjasaMatejJernej/upravljanjeProfilov");
-        dockerhub.put("https://travis-ci.org/RSOTjasaMatejJernej/obvestilniSistem");
-        dockerhub.put("https://travis-ci.org/RSOTjasaMatejJernej/sporocilniSistem");
+        dockerhub.put("https://hub.docker.com/r/tjasaj/katalogProfilov");
+        dockerhub.put("https://hub.docker.com/r/tjasaj/upravljanjeProfilov");
+        dockerhub.put("https://hub.docker.com/r/tjasaj/obvestilniSistem");
+        dockerhub.put("https://hub.docker.com/r/tjasaj/sporocilniSistem");
+
+        JSONArray travis = new JSONArray();
+        travis.put("https://travis-ci.org/RSOTjasaMatejJernej/katalogProfilov");
+        travis.put("https://travis-ci.org/RSOTjasaMatejJernej/upravljanjeProfilov");
+        travis.put("https://travis-ci.org/RSOTjasaMatejJernej/obvestilniSistem");
+        travis.put("https://travis-ci.org/RSOTjasaMatejJernej/sporocilniSistem");
 
         json.put("clani", clani);
         json.put("opis_projekta", "Nas projekt implementira socialno omrezje.");
