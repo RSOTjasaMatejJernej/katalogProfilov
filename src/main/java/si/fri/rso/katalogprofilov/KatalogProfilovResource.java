@@ -89,7 +89,7 @@ public class KatalogProfilovResource {
     }
 
     @GET
-    @Path("info")
+    @Path("endpoint/info")
     public Response info() {
 
         JSONObject json = new JSONObject();
@@ -97,7 +97,7 @@ public class KatalogProfilovResource {
         JSONArray clani = new JSONArray();
         clani.put("tj9557");
         clani.put("jj2744");
-        clani.put("tj9557");
+        clani.put("mp9119");
 
         JSONArray mikrostoritve = new JSONArray();
         mikrostoritve.put("http://169.51.24.248:32112/v1/katalogProfilov/");
