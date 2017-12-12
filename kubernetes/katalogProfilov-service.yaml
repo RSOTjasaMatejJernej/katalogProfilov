@@ -10,5 +10,6 @@ spec:
   - port: 8081
     protocol: TCP
     targetPort: 8081
+    NodePort: 32112
   selector:
     app: katalog-profilov
