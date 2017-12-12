@@ -3,6 +3,9 @@ package si.fri.rso.katalogprofilov;
 
 import com.kumuluz.ee.common.runtime.EeRuntime;
 import org.eclipse.microprofile.metrics.annotation.Metered;
+import org.json.JSONArray;
+import org.json.JSONObject;
+
 import javax.enterprise.context.ApplicationScoped;
 import javax.inject.Inject;
 import javax.ws.rs.*;
@@ -10,6 +13,7 @@ import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 
 import java.util.List;
+
 
 
 
@@ -82,5 +86,50 @@ public class KatalogProfilovResource {
                 "{\"instanceId\" : \"" + EeRuntime.getInstance().getInstanceId() + "\"}";
 
         return Response.ok(instanceId).build();
+    }
+
+    @GET
+    @Path("info")
+    public Response info() {
+
+        JSONObject json = new JSONObject();
+
+        JSONArray clani = new JSONArray();
+        clani.put("tj9557");
+        clani.put("jj2744");
+        clani.put("tj9557");
+
+        JSONArray mikrostoritve = new JSONArray();
+        mikrostoritve.put("http://169.51.24.248:32112/v1/katalogProfilov/");
+        mikrostoritve.put("http://169.51.24.248:32620/v1/upravljanjeProfilov/1");
+        mikrostoritve.put("http://169.51.24.248:31039/v1/obvestilniSistem/");
+        mikrostoritve.put("http://169.51.24.248:32316/v1/sporocilniSistem/");
+
+        JSONArray github = new JSONArray();
+        github.put("https://github.com/RSOTjasaMatejJernej/katalogProfilov");
+        github.put("https://github.com/RSOTjasaMatejJernej/upravljanjeProfilov");
+        github.put("https://github.com/RSOTjasaMatejJernej/obvestilniSistem");
+        github.put("https://github.com//RSOTjasaMatejJernej/sporocilniSistem");
+
+        JSONArray travis = new JSONArray();
+        travis.put("https://github.com/RSOTjasaMatejJernej/katalogProfilov");
+        travis.put("https://github.com/RSOTjasaMatejJernej/upravljanjeProfilov");
+        travis.put("https://github.com/RSOTjasaMatejJernej/obvestilniSistem/");
+        travis.put("https://github.com/RSOTjasaMatejJernej/sporocilniSistem/");
+
+        JSONArray dockerhub = new JSONArray();
+        dockerhub.put("https://travis-ci.org/RSOTjasaMatejJernej/katalogProfilov");
+        dockerhub.put("https://travis-ci.org/RSOTjasaMatejJernej/upravljanjeProfilov");
+        dockerhub.put("https://travis-ci.org/RSOTjasaMatejJernej/obvestilniSistem");
+        dockerhub.put("https://travis-ci.org/RSOTjasaMatejJernej/sporocilniSistem");
+
+        json.put("clani", clani);
+        json.put("opis_projekta", "Nas projekt implementira socialno omrezje.");
+        json.put("mikrostoritve", mikrostoritve);
+        json.put("github", github);
+        json.put("travis", travis);
+        json.put("dockerhub", dockerhub);
+
+        return Response.ok(json.toString()).build();
     }
 }

@@ -78,7 +78,11 @@
             <artifactId>kumuluzee-metrics-core</artifactId>
             <version>${kumuluzee-metrics.version}</version>
         </dependency>
-
+        <dependency>
+            <groupId>org.json</groupId>
+            <artifactId>json</artifactId>
+            <version>20171018</version>
+        </dependency>
     </dependencies>
 
     <build>
