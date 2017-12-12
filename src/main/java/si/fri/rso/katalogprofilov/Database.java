@@ -9,29 +9,12 @@ public class Database {
     private static List<Profil> profils = new ArrayList<>();
 
     public static List<Profil> getProfils() {
-        {
-            Profil cus = new Profil();
-            cus.setId("1");
-            cus.setFirstName("Janez");
-            cus.setLastName("Novak");
-            profils.add(cus);
-        }
+        Profil cus = new Profil();
+        cus.setId("1");
+        cus.setFirstName("Janez");
+        cus.setLastName("Novak");
+        profils.add(cus);
 
-        {
-            Profil cus = new Profil();
-            cus.setId("2");
-            cus.setFirstName("Špela");
-            cus.setLastName("Horvat");
-            profils.add(cus);
-        }
-
-        {
-            Profil cus = new Profil();
-            cus.setId("3");
-            cus.setFirstName("Miha");
-            cus.setLastName("Krajnc");
-            profils.add(cus);
-        }
         return profils;
     }
 

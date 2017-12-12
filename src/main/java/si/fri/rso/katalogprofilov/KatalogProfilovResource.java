@@ -12,6 +12,7 @@ import javax.ws.rs.core.Response;
 import java.util.List;
 
 
+
 @Consumes(MediaType.APPLICATION_JSON)
 @Produces(MediaType.APPLICATION_JSON)
 @Path("katalogProfilov")
@@ -82,5 +83,4 @@ public class KatalogProfilovResource {
 
         return Response.ok(instanceId).build();
     }
-
 }
