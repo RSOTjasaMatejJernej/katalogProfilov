@@ -19,12 +19,6 @@ spec:
             value: http://etcd:2379
           - name: KUMULUZEE_CONFIG_ETCD_HOSTS
             value: http://etcd:2379
-        livenessProbe:
-          httpGet:
-            path: /health
-            port: server
-          initialDelaySeconds: 20
-          periodSeconds: 3
         ports:
         - containerPort: 8081
           name: server
