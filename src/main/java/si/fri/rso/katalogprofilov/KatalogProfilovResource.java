@@ -89,7 +89,7 @@ public class KatalogProfilovResource {
     }
 
     @GET
-    @Path("/info")
+    @Path("info")
     public Response info() {
 
         JSONObject json = new JSONObject();
