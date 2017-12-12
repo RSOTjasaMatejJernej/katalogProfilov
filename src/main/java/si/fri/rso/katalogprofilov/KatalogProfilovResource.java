@@ -2,6 +2,7 @@
 package si.fri.rso.katalogprofilov;
 
 import com.kumuluz.ee.common.runtime.EeRuntime;
+import com.kumuluz.ee.logs.cdi.Log;
 import org.eclipse.microprofile.metrics.annotation.Metered;
 import javax.enterprise.context.ApplicationScoped;
 import javax.inject.Inject;
@@ -12,12 +13,16 @@ import javax.ws.rs.core.Response;
 import java.util.List;
 
 
+ import com.kumuluz.ee.logs.LogManager;
+ import com.kumuluz.ee.logs.Logger;
 
 @Consumes(MediaType.APPLICATION_JSON)
 @Produces(MediaType.APPLICATION_JSON)
 @Path("katalogProfilov")
 @ApplicationScoped
+@Log
 public class KatalogProfilovResource {
+    private Logger log = LogManager.getLogger(KatalogProfilovResource.class.getName());
 
     @Inject
     private RestProperties restProperties;
@@ -54,6 +59,7 @@ public class KatalogProfilovResource {
     @POST
     @Path("healthy")
     public Response setHealth(Boolean healthy) {
+        log.info("Setting health to " + healthy);
         restProperties.setHealthy(healthy);
         return Response.ok().build();
     }
