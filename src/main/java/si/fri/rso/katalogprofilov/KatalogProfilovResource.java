@@ -33,6 +33,7 @@ public class KatalogProfilovResource {
     @Metered
     public Response getAllProfils() {
         List<Profil> profils = Database.getProfils();
+        log.info("getAllProfils().. klic");
         return Response.ok(profils).build();
     }
 

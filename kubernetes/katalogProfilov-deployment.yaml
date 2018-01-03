@@ -10,7 +10,7 @@ spec:
         app: katalog-profilov
     spec:
       containers:
-      - image: tjasaj/katalog-profilov:0.02
+      - image: tjasaj/katalog-profilov:0.01
         name: katalog-profilov
         env:
           - name: KUMULUZEE_DISCOVERY_CLUSTER
