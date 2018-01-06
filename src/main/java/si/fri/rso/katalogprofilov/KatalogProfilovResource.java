@@ -2,6 +2,8 @@
 package si.fri.rso.katalogprofilov;
 
 import com.kumuluz.ee.common.runtime.EeRuntime;
+import com.kumuluz.ee.logs.LogManager;
+import com.kumuluz.ee.logs.Logger;
 import com.kumuluz.ee.logs.cdi.Log;
 import org.eclipse.microprofile.metrics.annotation.Metered;
 import org.json.JSONArray;
@@ -14,7 +16,7 @@ import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 
 import java.util.List;
-import java.util.logging.Logger;
+//import java.util.logging.Logger;
 
 
 @Consumes(MediaType.APPLICATION_JSON)
@@ -24,7 +26,7 @@ import java.util.logging.Logger;
 @Log
 public class KatalogProfilovResource {
 
-    private Logger log = Logger.getLogger(KatalogProfilovResource.class.getName());
+    private Logger log = LogManager.getLogger(KatalogProfilovResource.class.getName());
 
     @Inject
     private RestProperties restProperties;
@@ -33,7 +35,7 @@ public class KatalogProfilovResource {
     @Metered
     public Response getAllProfils() {
         List<Profil> profils = Database.getProfils();
-        log.info("getAllProfils().. klic");
+        log.trace("getAllProfils().. klic");
         return Response.ok(profils).build();
     }
 

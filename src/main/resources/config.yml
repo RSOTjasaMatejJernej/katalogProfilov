@@ -22,7 +22,9 @@ kumuluzee:
                           <Console name="console" target="SYSTEM_OUT">
                               <PatternLayout pattern="%d %p %marker %m %X %ex %n"/>
                           </Console>
-
+                          <Socket name="logstash" host="ec4e4103-b0ae-4d1e-beff-959e8bd7e149-ls.logit.io" port="16745" protocol="tcp">
+                              <JSONLayout complete="false" compact="true" eventEol="true" charset="UTF-8" properties="true"/>
+                          </Socket>
                           <Http name="Http" url="https://api.logit.io/v2">
                             <Property name="ApiKey" value="2de61eb8-d22b-4ab7-89a5-92c86289e5d7" />
                             <Property name="LogType" value="general" />
