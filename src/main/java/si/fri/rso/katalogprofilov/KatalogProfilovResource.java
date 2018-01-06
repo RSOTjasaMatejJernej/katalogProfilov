@@ -87,6 +87,7 @@ public class KatalogProfilovResource {
     @GET
     @Path("{profilId}")
     public Response getProfil(@PathParam("profilId") Integer profilId) {
+        log.trace("getting profil with id= "+profilId);
         Profil profil = Database.getProfil(profilId.toString());
         return profil != null
                 ? Response.ok(profil).build()
